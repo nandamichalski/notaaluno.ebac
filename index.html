@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Notas</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h2>Verificação de Nota do Aluno</h2>
+
+    <form id="formNotas">
+        <div class="form-group">
+            <div>
+            <label for="notaMinima">Nota mínima</label>
+            <input type="number" id="notaMinima" name="notaMinima" required>
+            </div>
+            <div>
+            <label for="notaMinima">Nota mínima</label>
+            <input type="number" id="notaAluno" name="notaAluno" required>
+            </div>
+        </div>
+        <button type="submit">Verificar</button>
+    </form>
+
+    <p id="mensagem"></p>
+    <script src="./main.js"></script>
+</body>
+</html>
